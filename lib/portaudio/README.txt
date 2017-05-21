@@ -49,9 +49,9 @@ tutorial at:
   http://www.portaudio.com/docs/pa_tutorial.html
   
 Important Files and Folders:
-	pa_common/              = platform independant code
+	pa_common/              = platform independent code
 	pa_common/portaudio.h   = header file for PortAudio API. Specifies API.
-	pa_common/pa_lib.c      = host independant code for all implementations.
+	pa_common/pa_lib.c      = host independent code for all implementations.
 
     pablio                  = simple blocking read/write interface
     
@@ -77,5 +77,5 @@ Test Programs
 	pa_tests/patest_record.c = record and playback some audio
 	pa_tests/patest_maxsines.c = how many sine waves can we play? Tests Pa_GetCPULoad().
 	pa_tests/patest_sine.c = output a sine wave in a simple PA app
-	pa_tests/patest_sync.c = test syncronization of audio and video
+	pa_tests/patest_sync.c = test synchronization of audio and video
 	pa_tests/patest_wire.c = pass input to output, wire simulator
